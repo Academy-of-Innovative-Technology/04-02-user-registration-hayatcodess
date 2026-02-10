@@ -9,5 +9,15 @@ document.querySelector(".btn-primary").addEventListener("click", function (event
     const acctype = document.querySelector('input[name="accountType"]:checked').value;
     const abyou = document.querySelector("#about-you").value;
     
+
+
+
+    console.log("First Name:", firstName);
+    console.log("Last Name:", lastName);
+    console.log("Email:", email);
+    console.log("Password:", password);
+    console.log("Country:", country);
+    console.log("Account Type:", acctype);
+    console.log("About You:", abyou);
 });
 
